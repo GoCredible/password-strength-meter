@@ -6,7 +6,7 @@
 
 To display the strength of the password with a visual feedback.
 
-[Password Strength Meter](https://www.npmjs.com/package/angular-password-strength-meter) use [zxcvbn](https://github.com/zxcvbn-ts/zxcvbn) to estimate the strength of the password and also provide a visual feedback with suggestions and warning messages.
+[Password Strength Meter](https://www.npmjs.com/package/@gocredible/angular-password-strength-meter) use [zxcvbn](https://github.com/zxcvbn-ts/zxcvbn) to estimate the strength of the password and also provide a visual feedback with suggestions and warning messages.
 
 This lib was developed based on the following [tutorial](https://scotch.io/tutorials/password-strength-meter-in-angularjs).
 
