@@ -38,6 +38,6 @@ jobs:
         uses: martinbeentjes/npm-get-version-action@master
 
       - name: Publish to npm
-        run: npm publish dist/password-strength-meter/
+        run: npm publish --access public dist/password-strength-meter/
         env:
           NODE_AUTH_TOKEN: ${{ secrets.NPM_TOKEN }}
