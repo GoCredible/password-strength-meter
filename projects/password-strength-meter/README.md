@@ -1,6 +1,6 @@
-[![CI](https://github.com/antoantonyk/password-strength-meter/actions/workflows/ci-workflow.yml/badge.svg)](https://github.com/antoantonyk/password-strength-meter/actions/workflows/ci-workflow.yml)
+[![CI](https://github.com/GoCredible/password-strength-meter/actions/workflows/ci-workflow.yml/badge.svg)](https://github.com/GoCredible/password-strength-meter/actions/workflows/ci-workflow.yml)
 [![npm version](https://badge.fury.io/js/angular-password-strength-meter.svg)](https://badge.fury.io/js/angular-password-strength-meter)
-[![Coverage Status](https://coveralls.io/repos/github/antoantonyk/password-strength-meter/badge.svg?branch=master)](https://coveralls.io/github/antoantonyk/password-strength-meter?branch=master)
+[![Coverage Status](https://coveralls.io/repos/github/GoCredible/password-strength-meter/badge.svg?branch=main)](https://coveralls.io/github/GoCredible/password-strength-meter?branch=main)
 
 # Password Strength Meter For Angular 18
 
@@ -16,7 +16,7 @@ Need lib for Vue.js? [Click here](https://github.com/antoantonyk/vue-password-st
 
 # Demo
 
-[See Demo Here](https://antoantonyk.github.io/password-strength-meter/)
+[See Demo Here](https://GoCredible.github.io/password-strength-meter/)
 
 ```html
 <password-strength-meter [password]="password"></password-strength-meter>

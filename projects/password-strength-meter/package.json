@@ -1,5 +1,5 @@
 {
-  "name": "angular-password-strength-meter",
+  "name": "@gocredible/angular-password-strength-meter",
   "version": "12.0.0",
   "dependencies": {
     "tslib": "^2.7.0"
@@ -10,10 +10,16 @@
     "@zxcvbn-ts/core": "^3.0.0",
     "@zxcvbn-ts/language-en": "^3.0.0"
   },
-  "author": {
-    "name": "Anto Antony",
-    "email": "antoantony8@gmail.com"
-  },
+  "contributors": [
+    {
+      "name": "Anto Antony",
+      "email": "antoantony8@gmail.com"
+    },
+    {
+      "name": "GoCredible B.V.",
+      "email": "contact@gocredible.nl"
+    }
+  ],
   "keywords": [
     "angular 18",
     "password-strength",
@@ -24,11 +30,11 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/antoantonyk/password-strength-meter.git"
+    "url": "https://github.com/GoCredible/password-strength-meter.git"
   },
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/antoantonyk/password-strength-meter/issues"
+    "url": "https://github.com/GoCredible/password-strength-meter/issues"
   },
-  "homepage": "https://github.com/antoantonyk/password-strength-meter"
+  "homepage": "https://github.com/GoCredible/password-strength-meter"
 }

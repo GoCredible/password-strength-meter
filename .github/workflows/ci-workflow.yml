@@ -4,9 +4,9 @@
 name: CI
 on:
   pull_request:
-    branches: [master]
+    branches: [main]
   push:
-    branches: [master]
+    branches: [main]
 
 jobs:
   build:
@@ -54,7 +54,7 @@ jobs:
 
   deploy:
     needs: build
-    if: github.event_name == 'push' && github.ref == 'refs/heads/master'
+    if: github.event_name == 'push' && github.ref == 'refs/heads/main'
     runs-on: ubuntu-latest
 
     strategy:
