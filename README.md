@@ -63,7 +63,7 @@ bootstrapApplication(AppComponent, appConfig).catch((err) =>
 
 ```ts
 ....
-import { PasswordStrengthMeterComponent } from 'angular-password-strength-meter';
+import { PasswordStrengthMeterComponent } from '@gocredible/angular-password-strength-meter';
 ....
 
 @Component({
@@ -124,7 +124,7 @@ You can override the default password strength meter service by providing the [C
 ```ts
 ....
 import { Injectable } from '@angular/core';
-import { IPasswordStrengthMeterService } from 'angular-password-strength-meter';
+import { IPasswordStrengthMeterService } from '@gocredible/angular-password-strength-meter';
 
 @Injectable()
 export class CustomPsmServiceService extends IPasswordStrengthMeterService {

@@ -1,6 +1,6 @@
 module.exports = {
   packages: {
-    'angular-password-strength-meter': {
+    '@gocredible/angular-password-strength-meter': {
       ignorableDeepImportMatchers: [/@zxcvbn\//],
     },
   },

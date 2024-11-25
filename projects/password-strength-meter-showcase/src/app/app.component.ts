@@ -6,7 +6,7 @@ import {
   RouterOutlet,
 } from '@angular/router';
 import { FormsModule } from '@angular/forms';
-import { PasswordStrengthMeterComponent } from 'angular-password-strength-meter';
+import { PasswordStrengthMeterComponent } from '@gocredible/angular-password-strength-meter';
 
 @Component({
   selector: 'app-root',

@@ -17,13 +17,13 @@
     "moduleResolution": "node",
     "importHelpers": true,
     "paths": {
-      "angular-password-strength-meter": [
+      "@gocredible/angular-password-strength-meter": [
         "./dist/password-strength-meter"
       ],
-      "angular-password-strength-meter/*": [
+      "@gocredible/angular-password-strength-meter/*": [
         "./dist/password-strength-meter/*"
       ],
-      "angular-password-strength-meter/zxcvbn": [
+      "@gocredible/angular-password-strength-meter/zxcvbn": [
         "./dist/password-strength-meter/zxcvbn"
       ]
     },
