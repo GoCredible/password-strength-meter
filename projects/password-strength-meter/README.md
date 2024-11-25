@@ -1,5 +1,5 @@
 [![CI](https://github.com/GoCredible/password-strength-meter/actions/workflows/ci-workflow.yml/badge.svg)](https://github.com/GoCredible/password-strength-meter/actions/workflows/ci-workflow.yml)
-[![npm version](https://badge.fury.io/js/angular-password-strength-meter.svg)](https://badge.fury.io/js/angular-password-strength-meter)
+[![npm version](https://badge.fury.io/js/@gocredible%2Fangular-password-strength-meter.svg)](https://badge.fury.io/js/@gocredible%2Fangular-password-strength-meter)
 [![Coverage Status](https://coveralls.io/repos/github/GoCredible/password-strength-meter/badge.svg?branch=main)](https://coveralls.io/github/GoCredible/password-strength-meter?branch=main)
 
 # Password Strength Meter For Angular 18
@@ -29,13 +29,13 @@ Need lib for Vue.js? [Click here](https://github.com/antoantonyk/vue-password-st
 **Step 1:** npm install (For Angular v18)
 
 ```sh
-npm install @zxcvbn-ts/core@^3.0.0 @zxcvbn-ts/language-en@^3.0.0 angular-password-strength-meter --save
+npm install @zxcvbn-ts/core@^3.0.0 @zxcvbn-ts/language-en@^3.0.0 @gocredible/angular-password-strength-meter --save
 ```
 
 For Angular v15
 
 ```sh
-npm install @zxcvbn-ts/core@^3.0.0 @zxcvbn-ts/language-en@^3.0.0 angular-password-strength-meter@^8.0.0 --save
+npm install @zxcvbn-ts/core@^3.0.0 @zxcvbn-ts/language-en@^3.0.0 @gocredible/angular-password-strength-meter@^8.0.0 --save
 ```
 
 **Optional Packages:** zxcvbn packagase are not required if PasswordStrengthMeterModule is using with a custom implementation of IPasswordStrengthMeterService .
