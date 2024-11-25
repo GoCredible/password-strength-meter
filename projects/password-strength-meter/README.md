@@ -46,7 +46,7 @@ npm install @zxcvbn-ts/core@^3.0.0 @zxcvbn-ts/language-en@^3.0.0 angular-passwor
 ....
 import { bootstrapApplication } from '@angular/platform-browser';
 import { ApplicationConfig } from '@angular/core';
-import { provideZxvbnServiceForPSM } from 'angular-password-strength-meter/zxcvbn';
+import { provideZxvbnServiceForPSM } from '@gocredible/angular-password-strength-meter/zxcvbn';
 ....
 
 export const appConfig: ApplicationConfig = {
@@ -98,7 +98,7 @@ import { bootstrapApplication } from '@angular/platform-browser';
 import { ApplicationConfig } from '@angular/core';
 
 import { translations } from '@zxcvbn-ts/language-en';
-import { provideZxvbnServiceForPSM, ZxvbnConfigType } from 'angular-password-strength-meter/zxcvbn';
+import { provideZxvbnServiceForPSM, ZxvbnConfigType } from '@gocredible/angular-password-strength-meter/zxcvbn';
 ....
 
 const zxvbnConfig: ZxvbnConfigType = {
